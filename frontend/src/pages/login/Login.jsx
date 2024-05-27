@@ -23,7 +23,7 @@ const Login = () => {
 
         <form onSubmit={handleSubmit}>
           <div>
-            <label className='label p-2'>
+            <label className='label'>
               <span className='text-base label-text'>Username</span>
             </label>
             <input
@@ -37,7 +37,7 @@ const Login = () => {
 
           <div>
             <label className='label'>
-              <span className='text-base label-text'>Password</span>
+              <span className='text-base label-text '>Password</span>
             </label>
             <input
               type='password'
